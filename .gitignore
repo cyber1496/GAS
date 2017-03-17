@@ -28,3 +28,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Ather Assets
+/Assets/WanzyeeStudio/Scripts
+/Assets/WanzyeeStudio/ThirdParty
