@@ -34,6 +34,7 @@ namespace Cyber.GAS
             data.url = EditorGUILayout.TextField(data.url);
             EditorGUILayout.LabelField("ID:ID passed to SpreadsheetApp.openById in Google Apps Script.");
             data.id = EditorGUILayout.TextField(data.id);
+            EditorUtility.SetDirty(data);
         }
     }
 }

@@ -1,4 +1,9 @@
+[ENG]
 # Unity project that receives spreadsheet information from Google API on Json
+
+# Part of this program needs to be downloaded from AssetStore as Asset. Check the following files.
+	 - "Assets/WanzyeeStudio/README.md"
+
 ## How to prepare and execute the sample.
 	- 1. Upload "Assets/Cyber/GAS/Examples/SheetToJsonTest.xlsx" to GoogleDrive.
 	- 2. Write the URL of [1.] In the ID of "Resources/GAS/SettingData.asset"
@@ -7,7 +12,12 @@
 	- 5. Write the URL of Web Application in the URL "Resources/GAS/SettingData.asset".
 	- 6. Execute "Assets/Cyber/GAS/Examples/Example.unity".
 
+[JPN]
 # GoogleAPIScriptからスプレッドシートの情報をJsonで受け取るUnityプロジェクト
+
+## このプログラムは一部AssetStoreからAssetダウンロードする必要があります。以下のファイルを確認してください。
+	 - "Assets/WanzyeeStudio/README.md"
+
 ## サンプルの準備および実行方法。
 	 - 1."Assets/Cyber/GAS/Examples/SheetToJsonTest.xlsx" を GoogleDriveにアップロードする。
 	 - 2.[1.]のURLを"Resources/GAS/SettingData.asset"のIDに記入する
