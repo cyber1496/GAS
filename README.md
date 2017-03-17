@@ -1,0 +1,2 @@
+# GAS
+GoogleAPIScriptからスプレッドシートの情報をJsonで受け取るUnityプロジェクト
