@@ -3,7 +3,8 @@ using UnityEditor;
 using UnityEngine;
 
 /// <summary>
-/// Create an asset of ScriptableObject.
+/// ScriptableObjectCreator
+/// In order to generate our own ScriptableObject, we implement by referring to the following URL.
 /// URL:http://baba-s.hatenablog.com/entry/2015/05/20/112328
 /// </summary>
 public static class ScriptableObjectCreator

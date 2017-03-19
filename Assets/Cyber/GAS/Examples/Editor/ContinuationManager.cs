@@ -4,6 +4,8 @@ using System.Linq;
 using UnityEditor;
 
 /// <summary>
+/// ContinuationManager
+/// In order to realize communication wait at the time of editor program execution, it is implemented by referring to the following URL.
 /// URL:http://answers.unity3d.com/questions/221651/yielding-with-www-in-editor.html
 /// </summary>
 internal class ContinuationManager
