@@ -1,29 +1,7 @@
-﻿using System.IO;
-using UnityEngine;
-using UnityEditor;
+﻿using UnityEditor;
 
 namespace Cyber.GAS
 {
-    public class SettingDataEditor
-    {
-        [MenuItem("Cyber/GAS/Create Setting Asset")]
-        static void CreateSettingAsset()
-        {
-            string path = string.Format("{0}{1}.asset", "Assets/Resources/", SettingData.AssetPath);
-            string fullPath = Path.GetFullPath(path);
-            if (File.Exists(fullPath))
-            {
-                return;
-            }
-            string directory = Path.GetDirectoryName(fullPath);
-            if (!Directory.Exists(directory))
-            {
-                Directory.CreateDirectory(directory);
-            }
-            AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<SettingData>(), path);
-            AssetDatabase.Refresh();
-        }
-    }
     [CustomEditor(typeof(SettingData))]
     public class SettingDataInspector : Editor
     {
